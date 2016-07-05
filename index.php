@@ -1,5 +1,5 @@
 <?php
 
-echo "testestestsetsteste";
 
+echo $_SERVER["REMOTE_ADDR"];
 ?>
