@@ -1,3 +1,12 @@
+<?php
+if(empty($_POST['time'])){
+  $time = 0;
+} else {
+  $time = $_POST['time'];
+}
+?>   
+
+
 <!DOCTYPE html>
 <html>
   <head>
@@ -17,10 +26,10 @@
     <center>    
       <h1>The Wumpus World Prototype</h1>
 
-      
+      <p>現在の時間<?php echo $time; ?></p>
       <p>選択した行動：      </p>
       <form action="./wumpus.php" method="POST">
-	<input type="hidden" name="time" value="" />
+	<input type="hidden" name="time" value=<?php echo $time + 1; ?> />
 	<button type="submit" name="next" value="" class="next-tern">次のターンを見る</button>
       </form>
 
