@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+    <link rel="stylesheet" href="./css/main.css" type="text/css" />
+    <link rel="icon" href="./img/favicon.ico">
+
+    <title>英語演習課題Wumpus World プロトタイプ</title>
+    <script type="text/javascript" src="./js/jquery.min.js"></script>
+
+    
+  </head>
+
+
+  <body>
+
+      <div id="login-form">
+	<h1 style="color: red;">The Game of the Wumpus World</h1>
+	<h2>ゲームの設定を決めてください</h2>
+	
+	<form action="wumpus.php" method="GET">
+	  <h2>縦：<input type="number" name="width" value="width" required="required" step="1" />
+	    横：<input type="number" name="height" value="height" required="required" step="1" /></h2>
+	  <button type="submit" name="button" value="world-decide">ゲームスタート</button>
+	</form>
+	
+      </div>
+  </body>
+</html>

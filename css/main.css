@@ -1,0 +1,68 @@
+
+
+div#login-form {
+    width: 600px;
+    height: 300px;
+    margin: 200px auto;
+    text-align: center;
+    padding-top: 20px;
+    background-color: lightgray;
+}
+
+
+
+    
+table {
+    border-collapse: collapse;
+}
+
+table#status-table td {
+    color: black;
+}
+
+th {
+    border: 2px solid #000000;
+    margin: 0;
+    padding: 0;
+    width: 120px;
+    height: 60px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+td {
+    font-weight: bold;
+    color: red;
+    border: 2px solid #000000;
+    margin: 0;
+    padding: 0;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+td.label {
+    border: 0px;
+}
+
+td.gold {
+    position:relative;
+    background-image: url("../img/gold.jpg");
+}
+
+td.hole {
+    background-image: url("../img/hole.png");
+}
+
+
+img.wumpus {
+    position: absolute;
+}
+
+
+button.next-tern {
+    height: 50px;
+    font-size: 1.3em;
+}
+    
