@@ -61,7 +61,7 @@
 	  
 	  <tr>
 	    <td class="label">8</td>
-	    <td class="gold"><img src="./img/wumpus.png" width="60px" height="60px" /></td>
+	    <td><img src="./img/wumpus.png" width="60px" height="60px" /></td>
 	    <td></td>
 	    <td></td>
 	    <td></td>
@@ -81,7 +81,7 @@
 	    <td></td>
 	    <td></td>
 	    <td></td>
-	    <td></td>
+	    <td class="gold"></td>
 	    <td></td>
 	    <td></td>
 	    <td></td>
